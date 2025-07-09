@@ -84,12 +84,12 @@ The overall goal was to build a user-friendly, interactive, and maintainable app
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 OMDb API for the movie data
 
 ---
 
-✅ Closing Note
+## ✅ Closing Note
 This project was a great way to apply core React skills and build a clean, interactive UI.
 Thank you for giving me this opportunity to showcase my skills , looking forward to working with you.
    
