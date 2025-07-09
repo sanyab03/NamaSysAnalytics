@@ -53,10 +53,9 @@ function App() {
   return (
     <div className="app-container">
       <header className="app-header">
-        <h1 className="logo">🎬 MovieExplorer</h1>
+        <h1 className="logo"> Movie<span>Explorer</span></h1>
         <SearchBar setQuery={setQuery} />
       </header>
-
       <div className="content-container">
         <MovieList
           movies={movies}

@@ -6,33 +6,44 @@ body {
 }
 
 .app-container {
-  padding: 20px;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
 }
-
 .app-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .logo {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #5a0514;
   margin: 0;
+  word-break: break-word;
 }
-span{
-  color: #a22c42;
-}
+
+span {
+  color: #b72e47;
+} 
 
 .content-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  align-items: flex-start;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+/* Responsive */
+@media (min-width: 576px) {
+  .logo {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -40,5 +51,19 @@ span{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-container {
+    padding: 2rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .content-container {
+    gap: 2rem;
   }
 }
