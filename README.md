@@ -2,12 +2,14 @@
 
 A clean, responsive React app for searching movies using the OMDb API and managing a personal watchlist with drag-and-drop reordering.
 
- ![image](https://github.com/user-attachments/assets/72672251-33e8-402f-9edb-e6ffdc186f07)
+
+![image](https://github.com/user-attachments/assets/0b14cf19-7057-4349-a6ba-aa0210fc412b)
+
 
 
  ## 🔗 Live Demo
 
-👉 [Click here to try the app](https://sys-analytics.vercel.app/)  
+👉 [Click here to try the app](https://nama-sys-analytics.vercel.app/)  
 
 
 ---
@@ -29,48 +31,48 @@ A clean, responsive React app for searching movies using the OMDb API and managi
 - Node.js (v14 or later)
 - npm or yarn
 
-### Setup
+### 📦 Installation 
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sanyab03/movie-explorer.git
-   cd movie-explorer
-2. **Install dependencies**
-   npm install
-   # or
-   yarn install
-3. **Start the development server**
-   npm start
-   # or
-   yarn start
-4. Open http://localhost:3000 in your browser to view the app.
-
+```bash
+git clone https://github.com/sanyab03/movie-explorer.git
+cd movie-explorer
+npm install       # or yarn install
+npm start         # or yarn start
+Visit http://localhost:3000 in your browser to explore the app.
+```
 
 ## 🧠 How I Approached It
 
-This project was built to explore:
+This project was built as part of a frontend assignment and focuses on learning and applying:
 
--React fundamentals: useState, useEffect, props, and component-based architecture.
+React Fundamentals
+useState, useEffect, props, and component-based architecture for modularity
 
--Search & API handling: I implemented a debounced search using the OMDb API for smooth user experience.
+Search & API Handling
+Debounced search implementation using OMDb API for efficient querying and better UX
 
--Watchlist logic: Add/remove functionality with unique ID checks and localStorage for persistence.
+Watchlist Logic
+Add/remove with unique ID validation and persistent state via localStorage
 
--Responsive design: Used CSS Flexbox, Grid, and media queries to ensure a mobile-friendly UI.
+Responsive Design
+Layout structured with CSS Flexbox, Grid, and media queries for a seamless mobile experience
 
-The overall focus was on interactivity, code reusability, and maintaining a clean, modern UI/UX.
+The overall goal was to build a user-friendly, interactive, and maintainable application.
+
+---
+
 
 ## 🛠️ Tech Stack
 
 -Frontend: React, CSS (Flexbox, Grid)
-
--Drag-and-drop: react-beautiful-dnd
 
 -API: OMDb API
 
 -State management: React Hooks (useState, useEffect)
 
 -Persistence: localStorage
+
+---
 
 ## 🚧 Future Improvements
 
@@ -79,6 +81,15 @@ The overall focus was on interactivity, code reusability, and maintaining a clea
 📄 Movie detail modal or dedicated detail page
 
 🌙 Dark mode toggle
+
+---
+
+🙌 Acknowledgements
+OMDb API for the movie data
+
+---
+
+✅ Closing Note
+This project was a great way to apply core React skills and build a clean, interactive UI.
+Thank you for giving me this opportunity to showcase my skills , looking forward to working with you.
    
-
-
